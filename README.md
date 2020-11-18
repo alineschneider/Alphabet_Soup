@@ -18,7 +18,7 @@ The project consisted of creating a machine learning model to predict the succes
 __1.__ Number of neurons and layers selected for neural network model:\
 Single layer with twice as many neurons as the number of input features. 
 
-__2.__ Steps taken to try and increase model performance:\
+__2.__ Steps taken to try and increase model performance:
 * Made sure to not bucket together too many of the rare categorical values when preprocessing so as not to lose too much data; 
 * Increasing the number of neurons to 3x the number of input features did not improve accuracy significantly;
 * Running more epochs (150) improved accuracy slightly, but not enough to justify the additional epochs;
